@@ -1,0 +1,121 @@
+/*Add padding and margin to space out the page.
+Make the font larger too.*/
+body{
+	margin:1%;
+	padding:1%;
+	font-size:150%;
+}
+
+h1{
+	font-size: 2em; 
+	font-weight: bold;
+}
+
+h2{
+	font-size: 1.6em; 
+	font-weight: bold;
+}
+
+/*Style the images*/
+img{
+    height: 210px;
+    width:auto;
+    border-radius: 10px;
+    margin-right: 20px;
+	margin-top: 10px;
+}
+
+/*Improve the spacing for paragraphs AND headings*/
+h1{
+    padding: 0px 20px 10px 20px;
+}
+
+div {
+	padding: 20px 20px 30px 20px;
+}
+
+div p {
+	padding: 10px 0px 0px 0px;
+}
+
+div ul {
+	padding: 10px 0px 0px 0px;
+}
+
+div button {
+	margin: 10px 0px 20px 0px;
+}
+
+
+
+.book button {
+	background-color: rgba(196, 2, 2, 0.927);
+	color: white !important;
+	border: 2px solid rgba(196, 2, 2, 0.927);
+	border-radius: 10px;
+	font-size: 16px;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+  }
+
+.book button:hover {
+	color: black !important;
+	background-color: white;
+	border: 2px solid rgba(196, 2, 2, 0.927);
+	border-radius: 10px;
+  }
+
+
+
+
+
+
+
+
+
+/*Add borders around the main components and some
+space too*/
+header, nav, main, footer{
+	border: 2px solid grey;
+	margin: 10px 0;
+}
+
+footer p {
+	padding: 10px 0px 10px 20px;
+}
+
+/*Change the styling for all of the list 
+items in the nav section*/
+nav li{
+	background-color: rgba(196, 2, 2, 0.927);
+	padding:10px;
+	width:25%;
+	border:1px solid black;
+	display: inline-block;
+	width: 20%;
+}
+
+nav li a{
+	color: white !important;
+	text-decoration: none !important;
+}
+
+nav .active{
+	background: white;
+    text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav .active a{
+	color: rgba(196, 2, 2, 0.927) !important;
+	text-decoration: none;
+}
+
+
+
+
+
+
